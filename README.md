@@ -2,7 +2,12 @@
 
 Scripts and tools for agent service install and management
 
-## Windows 
+## Windows 32/64 bit
+
+### Install Instructions
+
+1. Download the 
+1. Download the latest [Cresco Agent release](https://github.com/CrescoEdge/agent/releases) to   
 
 ### installservice.bat
 This batch file is used to install the Cresco Agent service on 32 bit and 64 bit versions of Windows making use of the Apache Commons Daemon https://commons.apache.org/proper/commons-daemon/ Procrun service.  The script takes two arguements, the location of the appropirate JVM DLL for your system (Java 1.8/11) and the Cresco home directory containing the agent jar.
