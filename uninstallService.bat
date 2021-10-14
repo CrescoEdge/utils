@@ -7,4 +7,5 @@ reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" 
 if %OS%==32BIT set VERSION=x32
 if %OS%==64BIT set VERSION=x64
 
+rem Uninstall service
 %VERSION%\prunsrv //DS/CrescoAgent
